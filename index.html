@@ -32,7 +32,7 @@
 
       <div class="flex justify-between mt-10 items-center">
         <div class="flex space-x-7">
-              <div>
+              <div class="lg:hidden">
                 <p><i class="fa-solid fa-bars text-3xl"></i></p>
               </div>
               <div>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="lg:flex lg:space-x-7 lg:list-none lg:text-base font-normal text-[#424247] hidden">
-            <li>Home</li>
+            <li class="text-[#FF4240]">Home</li>
             <li>About</li>
             <li>Pages</li>
             <li>Blogs</li>
@@ -79,7 +79,7 @@
 
             <div class="text-center mt-40 mb-16 space-y-8">
                 <h1 class="font-extrabold lg:text-4xl text-2xl text-black">Professional Hockeys Club</h1>
-                <p class="text-[#424247]">Never miss a moment of the action with our live scores and game highlights. Follow your favorite teams and players as they battle it out on the ice. Our real-time updates ensure you're always in the know, whether you're at home or on the go.</p>
+                <p class="text-[#424247] lg:w-2/3 lg:mx-auto" >Never miss a moment of the action with our live scores and game highlights. Follow your favorite teams and players as they battle it out on the ice. Our real-time updates ensure you're always in the know, whether you're at home or on the go.</p>
             </div>
 
             <div class=" lg:flex lg:justify-evenly lg:gap-5 lg:text-center flex-row justify-center text-center space-y-5">
@@ -112,8 +112,8 @@
         <section class="mt-40">
 
             <div class="text-center space-y-7 mb-12">
-                <h1 class="text-4xl">Program Section</h1>
-             <p class="text-[#424247]">Our coaching staff understands that by teaching children how to play properly, players will learn the game of hockey and the sport will be more enjoyable for everyone. To accomplish these goals, the coaching staff incorporates the station-based skills from USA Hockey to teach your child skating fundamentals and the basics of hockey according to their ability.</p>
+                <h1 class="text-4xl font-extrabold">Program Section</h1>
+             <p class="text-[#424247] lg:w-2/3 lg:mx-auto">Our coaching staff understands that by teaching children how to play properly, players will learn the game of hockey and the sport will be more enjoyable for everyone. To accomplish these goals, the coaching staff incorporates the station-based skills from USA Hockey to teach your child skating fundamentals and the basics of hockey according to their ability.</p>
             </div>
 
 
@@ -135,7 +135,7 @@
                 <div class="lg:col-span-2 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/4.png)] bg-center bg-cover text-white font-medium rounded-xl space-y-6 pt-20 pb-12 px-12 ">
 
                     <h1 class="font-extrabold text-3xl">Professional Program</h1>
-                    <p>A professional program is designed to enhance the skills, knowledge, and expertise of individuals who are already established in their careers. These programs cater to professionals seeking continued education, specialization, or career advancement.</p>
+                    <p class="lg:w-2/3">A professional program is designed to enhance the skills, knowledge, and expertise of individuals who are already established in their careers. These programs cater to professionals seeking continued education, specialization, or career advancement.</p>
                     <Button class="bg-[#FF4240] px-6 py-3 rounded-lg text-white ">Register Now !</Button>
 
 
@@ -150,13 +150,13 @@
             <div class="text-center space-y-5">
                   
                 <h1 class="font-extrabold text-4xl">Client Questions</h1>
-                <p class="text-[#424247]">In the dynamic landscape of client interactions, the ability to respond to inquiries with precision and clarity is a fundamental aspect of fostering positive relationships. Client questions serve as gateways to understanding their needs, concerns, and expectations. How we handle these questions can significantly impact the client's perception of our professionalism and commitment to their satisfaction.</p>
+                <p class="text-[#424247] lg:w-2/3 lg:mx-auto">In the dynamic landscape of client interactions, the ability to respond to inquiries with precision and clarity is a fundamental aspect of fostering positive relationships. Client questions serve as gateways to understanding their needs, concerns, and expectations. How we handle these questions can significantly impact the client's perception of our professionalism and commitment to their satisfaction.</p>
 
 
 
             </div>
 
-            <div class="flex-row lg:flex lg:justify-around mt-10">
+            <div class="flex-row lg:flex lg:justify-between mt-10">
 
                 <div class="lg:flex-1 mb-5">
 
@@ -236,7 +236,58 @@
     </main>
 
     <!-- This is footer Section -->
-    <footer>
+    <footer class="w-full mt-28">
+
+        <div class="grid grid-cols-2 gap-8 lg:grid lg:grid-cols-4 lg:gap-5 bg-black text-gray-500 items-center lg:px-20 px-10 py-10">
+            <div class="space-y-3">
+
+                <h1 class="font-extrabold text-3xl text-white">Get In Touch</h1>
+                <p class="w-2/3">Please let me know a time that works for you, and we can arrange the details.</p>
+               <div class="flex space-x-2 items-center">
+                <i class="fa-solid fa-envelope text-red-500"></i><p>Jahed612@gmail.com</p>
+                
+               </div>
+               <div class="flex space-x-2 items-center">
+                <i class="fa-solid fa-phone text-red-500"></i><p>01795500756</p>
+               </div>
+
+
+
+            </div>
+
+
+            <div class="space-y-3">
+
+                <h1 class="font-bold text-lg text-white">Company</h1>
+                <p>About Us</p>
+                <p>LeaderShip</p>
+                <p>Careers</p>
+                <p>News And Articles</p>
+                <p>Legal Notice</p>
+
+            </div>
+
+
+            <div class="space-y-3">
+                <h1 class="font-bold text-lg text-white">Help Center</h1>
+                <p>FAQ</p>
+                <p>LeaderShip</p>
+                <p>Ticket Support</p>
+                <p>Contact Us</p>
+                <p>Feedback</p>
+
+
+            </div>
+            <div class="space-y-3">
+                <h1 class="font-bold text-lg text-white">Services</h1>
+                <p>Academy</p>
+                <p>Group Lessons</p>
+                <p>Privet Lessons</p>
+                <p>Hockey For Kids</p>
+                <p>Hockey For Adult</p>
+
+            </div>
+        </div>
 
 
     </footer>
